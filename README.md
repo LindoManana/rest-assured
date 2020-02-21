@@ -5,7 +5,8 @@ This is a spring boot project that shows the basic usage of Rest-Assured for API
  REST-assured was designed to simplify the testing and validation of REST APIs. It is a really powerful catalyzer for automated testing of REST-services. The library has solid support for HTTP, starting of course with the verbs and standard HTTP operations, but also going well beyond these basics.
 
 ### Project Test Cases
-This project contains the following test cases::
+This project contains the following test cases:
+
 **1. testCreateEmployee:**
 - **Test case description:** Tests the creation of an employee resource. In this example, REST Assured will serialize the employee object to JSON since the request content-type is set to "application/json".
 - **Test case expected result:** Verify the HTTP response status code returned is 201.
